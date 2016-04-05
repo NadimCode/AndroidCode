@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#e8e8e8">
+
+    <TextView android:text="Find nearest Gas station" android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:id="@+id/findGasButton"
+        android:background="@drawable/round_rect"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="158dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:id="@+id/viewMapButton"
+        android:layout_below="@+id/findGasButton"
+        android:layout_marginTop="40dp"
+        android:layout_alignRight="@+id/findGasButton"
+        android:layout_alignEnd="@+id/findGasButton"
+        android:layout_alignLeft="@+id/findGasButton"
+        android:layout_alignStart="@+id/findGasButton"
+        android:background="@drawable/round_rect"
+        android:gravity="center_vertical|center_horizontal" />
+
+</RelativeLayout>
+

@@ -1,8 +1,6 @@
 package com.example.nadim.gasatu;
 
-/**
- * Created by Administrator on 12/2/2015.
- */
+
 import com.google.android.gms.maps.model.LatLng;
 
 import org.json.JSONArray;

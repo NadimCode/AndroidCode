@@ -6,9 +6,7 @@ import org.json.JSONObject;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * Created by Administrator on 12/2/2015.
- */
+
 public class Place {
     private String id;
     private String icon;

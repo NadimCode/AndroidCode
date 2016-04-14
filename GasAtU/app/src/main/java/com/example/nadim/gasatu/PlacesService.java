@@ -15,9 +15,7 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * Created by Administrator on 12/2/2015.
- */
+
 public class PlacesService {
 
     private String API_KEY;

@@ -15,9 +15,7 @@ import android.provider.Settings;
 
 import android.util.Log;
 
-/**
- * Created by Administrator on 9/30/2015.
- */
+
 public class GPSTracker  extends Service implements LocationListener {
     private final Context mContext;
 

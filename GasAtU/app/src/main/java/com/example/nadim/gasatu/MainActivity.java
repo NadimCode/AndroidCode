@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     public  static Double nearestGPSLat;
     public  static Double nearestGPSLng;
 
-    public static String APIKey = "Replace your own API Key";
+    public static String APIKey = "Replace with your own API Key";
 
     TextView findGasButton, viewMapButton;
 
